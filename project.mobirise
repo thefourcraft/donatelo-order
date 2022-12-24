@@ -1,0 +1,3338 @@
+{
+  "settings": {
+    "currentPage": "page3.html",
+    "theme": {
+      "name": "creatorm5",
+      "title": "CreatorM5",
+      "styling": {
+        "primaryColor": "#FEDB01",
+        "secondaryColor": "#8C8C95",
+        "successColor": "#eff0f6",
+        "infoColor": "#3f69ff;",
+        "warningColor": "#FF9417",
+        "dangerColor": "#179EFF",
+        "mainFont": "Space Grotesk",
+        "display1Font": "RubikMonoOne-Regular",
+        "display1Size": "6.8",
+        "display2Font": "Karantina",
+        "display2Size": 2.375,
+        "display5Font": "Varela Round",
+        "display5Size": 1.5,
+        "display7Font": "Varela Round",
+        "display7Size": 1.375,
+        "display4Font": "Varela Round",
+        "display4Size": 1.125,
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Social Media Influencer",
+      "nameSelectPreset": "social-media-influencer",
+      "presetSourceTheme": "creatorm5",
+      "additionalSetColors": [
+        "#e43f3f",
+        "#0f357c",
+        "#fcb713",
+        "#1e2e62"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Donatelo",
+    "versionFirst": "5.6.13",
+    "siteFonts": [
+      {
+        "css": "'Space Grotesk', sans-serif",
+        "name": "Space Grotesk",
+        "url": "https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700"
+      },
+      {
+        "css": "'Karantina', display",
+        "name": "Karantina",
+        "url": "https://fonts.googleapis.com/css?family=Karantina:300,400,700"
+      },
+      {
+        "css": "'Varela Round', sans-serif",
+        "name": "Varela Round",
+        "url": "https://fonts.googleapis.com/css?family=Varela+Round:400"
+      },
+      {
+        "css": "'RubikMonoOne-Regular'",
+        "name": "RubikMonoOne-Regular",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/RubikMonoOne-Regular/font.ttf"
+      }
+    ],
+    "imageResize": true,
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://donatelo.co.il",
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "mbrsiteDomain": "cxugpzxll8",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": false,
+    "witsec-mailform": false,
+    "pwa-switcher": false,
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "uniqCompNum": 15,
+    "versionPublish": "5.6.13",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "דונטלו אמצעי קד\"מ | בית",
+        "meta_descr": "יבוא ושווק מתקני תצוגה וציוד לאירועים ללקוחות מקצועיים מפיקים בתי דפוס למוסדות לשוק המונציפלי לרשויות ולחברות גדולות",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "0",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+              "margin-top": "0px"
+            },
+            ".dropdown-item": {
+              "&:hover, &:focus": {
+                "color": "@primaryColor !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0em !important",
+              "font-weight": "400"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "padding": "0"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap",
+              "padding-left": "20px"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "19px 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "flex-end",
+              "padding-left": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "min-width": "340px !important"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a": {
+              "display": "inline"
+            },
+            "img": {
+              "display": "inline",
+              "padding-right": "10px"
+            },
+            ".dropdown-toggle:after": {
+              "display": "none"
+            },
+            ".navbar .dropdown-item": {
+              "display": "block",
+              "border-radius": "0",
+              "padding-top": "2px",
+              "padding-bottom": "2px"
+            },
+            ".dropdown-item:hover": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 990px)": {
+              ".dropdown-menu": {
+                "margin-top": "0px"
+              },
+              ".nav-dropdown .link": {
+                "margin": "0 !important"
+              }
+            },
+            ".mbr-buttons": {
+              "margin": "20px -6px 20px"
+            },
+            ".nav-item": {
+              "margin-right": "32px"
+            },
+            ".nav-item:last-child": {
+              "margin-right": "0"
+            },
+            "@media (max-width: 970px)": {
+              "ul li": {
+                "height": "45px",
+                "display": "list-item"
+              }
+            },
+            ".navbar-collapse.collapsing .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-collapse.collapse.show .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-nav": {
+              "margin": "auto"
+            },
+            ".navbar-collapse.collapse.show ul li": {
+              "display": "list-item"
+            },
+            ".mbr-iconfont": {
+              "margin-left": "-5px",
+              "margin-right": "7px"
+            },
+            ".btn": {
+              "padding": "1rem 1.5625rem !important",
+              "display": "inline-block",
+              "line-height": "20px",
+              "transform-style": "preserve-3d !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            ".btn when (@isRoundedButtons)": {
+              "border-radius": "1000px !important"
+            },
+            ".navbar.collapsed .icons-menu": {
+              "display": "flex",
+              "flex-direction": "column",
+              ".top": {
+                "margin-top": "15px"
+              }
+            },
+            ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "border-top": "0.35em solid",
+              "border-right": "0.35em solid transparent",
+              "border-left": "0.35em solid transparent",
+              "border-bottom": "0",
+              "top": "41%"
+            },
+            ".dropdown-toggle::after": {
+              "display": "inline-block",
+              "margin-left": ".255em",
+              "vertical-align": ".255em",
+              "content": "\"\"",
+              "border-top": ".3em solid",
+              "border-right": ".3em solid transparent",
+              "border-bottom": "0",
+              "border-left": ".3em solid transparent"
+            },
+            ".dropdown-item:focus": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 945px)": {
+              ".icons-menu": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".top": {
+                "margin-top": "25px"
+              }
+            },
+            ".btn:hover": {
+              "transform": "translate3d(0px, -4px, 0.01px) !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            "@media (min-width: 992px)": {
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap"
+              }
+            },
+            "li:last-child": {
+              "margin-right": "0"
+            },
+            "& when (@collapsed)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "inherit !important"
+              }
+            },
+            "@media (max-width: 989px)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 430px)": {
+              ".icons-menu": {
+                "min-width": "initial !important"
+              },
+              "a.btn": {
+                "margin-top": "10px"
+              }
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButton\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n                <div class=\"icons-menu\">\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\">Follow</a></div>\n                </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-info mbr-iconfont mbr-iconfont-btn\"></span>אודות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#numbers1-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"gi gi-fw gi-gavel mbr-iconfont mbr-iconfont-btn\"></span>תקנון ומידע חוקי</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"order.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-border-color mbr-iconfont mbr-iconfont-btn\"></span>הזמנה אישית</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://dntl.co.il\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"material material-shopping-cart mbr-iconfont mbr-iconfont-btn\"></span>חנות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#article9-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>בית</a></li></ul>\n                <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://donatelo.co.il\">\n                        <img src=\"@PROJECT_PATH@/assets/images/donatelo-transparent-zoom-96x62.png\" alt=\"Donatelo Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n            </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sLnsAC8JQx",
+          "_anchor": "menu1-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "& when not (@gradientBg)": {
+                "background-color": "@bg-value"
+              },
+              "& when (@gradientBg)": {
+                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
+              }
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-text": {
+              "font-size": "40px"
+            }
+          },
+          "_name": "header18",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dontalo-background-1280x413.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#1e2e62\">4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#fcb713\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"189\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>דונטלו עמצאי קד\"מ</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Header Subtitle\n                    </b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">העצירה היחידה שלכם בשביל כל מה שאתם צריכים<br>&nbsp;הכוונת קהל | אמצעי תצוגה לקידום מכירות | עזרי שיווק לתערוכת |&nbsp;כנסים ואירועים<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"material material-border-color mbr-iconfont mbr-iconfont-btn\"></span>להזמנה אישית</a> <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"material material-shopping-cart mbr-iconfont mbr-iconfont-btn\"></span>לחנות המוצרים</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tq51kUnBa6",
+          "_anchor": "header18-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".mbr-section-title": {
+              "width": "100%",
+              "text-align": "center",
+              "margin-bottom": "24px",
+              "color": "#000000",
+              "font-size": "60px"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95",
+              "margin-bottom": "32px"
+            },
+            ".mbr-section-btn": {
+              "width": "auto",
+              "display": "block"
+            },
+            "ul": {
+              "padding-inline-start": "20px",
+              "margin-bottom": "28px"
+            },
+            "li::marker": {
+              "color": "@markerColor",
+              "width": "10px"
+            },
+            "li": {
+              "margin-bottom": "7px",
+              "color": "#14142b"
+            },
+            "img": {
+              "width": "90%"
+            },
+            ".gray": {
+              "background-color": "@accentColor",
+              "width": "80%",
+              "height": "430px",
+              "margin": "auto",
+              "position": "relative"
+            },
+            ".b": {
+              "max-width": "598px"
+            },
+            ".first": {
+              "position": "absolute",
+              "top": "-10%",
+              "right": "25%"
+            },
+            ".second": {
+              "position": "absolute",
+              "bottom": "-10%",
+              "left": "25%"
+            },
+            "@media (max-width: 992px)": {
+              ".t": {
+                "padding-top": "90px"
+              },
+              ".b": {
+                "max-width": "initial"
+              },
+              ".gray": {
+                "width": "50%"
+              }
+            },
+            "@media (max-width: 750px)": {
+              ".gray": {
+                "height": "330px"
+              }
+            },
+            "@media (max-width: 630px)": {
+              ".gray": {
+                "height": "230px"
+              }
+            },
+            "@media (max-width: 450px)": {
+              ".gray": {
+                "height": "200px",
+                "width": "70%"
+              }
+            },
+            ".btn": {
+              "margin-top": "20px"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".t": {
+              "max-width": "542px"
+            },
+            ".mbr-text, .button-align, .list": {
+              "text-align": "center",
+              "color": "#14142b"
+            }
+          },
+          "_name": "header2",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header2\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"color\" title=\"Marker Color\" name=\"markerColor\" value=\"#fedb01\">\n        <input type=\"color\" title=\"Accent\" name=\"accentColor\" value=\"#eff0f6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-between\">\n\n                    <h5 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>?מי אנחנו</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .button-align, .list\" mbr-if=\"showText\">דונטלו חברה וותיקה מאוד ויחודית בתחומה, בעלת נצגויות בתחום ניהול קהל ואמצעים לתור יבוא ושווק מתקני תצוגה וציוד לאירועים ללקוחות מקצועיים מפיקים בתי דפוס למוסדות לשוק המונציפלי לרשויות ולחברות גדולות מוצרי החברה הם עמודי תור, חבלול,מתקני תצוגה, עמודי סרט נמתח, תיחום וניהול קהל,פודיום נואמים, שושנות דגלים, מתקני שילוט, מעמדים לפרוספקטים, דלפקים מתקפלים עמודי תור סרט קפיצי נגלל עמודי חבלול מתקני שילוט הנחיה והוראת קהל דוכני נואמים קירות רקע במה שושונות דגלים מתקני תצוגה לפוסטרים מאסיבים נייחים ומתקני בנר קלים ופריקים מעמדי פרוספקטים ומתקני תא לעלונים מעמדי דף שולחניים ומתקני דף לקיר בתחום התערוכות ציוד לתליית שלטי ענק ניידים פריקים ומתקני תצוגה מודולריים לביתני תצוגה בחול בתחום קידום מכירות דלפקים קלים מתקפלים וניידים במנשא תיק מגשי דיילת נישאים מגשי טעימות לעגלות סופר מנשאי דגל למבצעי מכירות ונראות עזרי שיווק לנקודת מחירה מעמדי שילוט מחיר פלסטי אוהלים מתקפלים לאירועי מכירות מתקני דגל מתקפלים דגלי רוח מפרש תוחמים לאזורי בתי קפה קשיחים ועם מדייה פרסומית מתקני פוסטר חצובה מתקני שילוט באמפר לאזורי רכבים מסגרות פוסטר לקיר\n                    </p>\n                    <div class=\"button-align\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButton\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href data-app-placeholder=\"Type Text\">קראו עוד עלינו</a></div>\n                    </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tq54hi7XyD",
+          "_anchor": "header2-1",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "width": "auto",
+              "height": "48px",
+              "display": "inline-block",
+              "padding": "0",
+              "margin": "auto"
+            },
+            ".mbr-section-subtitle": {
+              "margin-right": "30px",
+              "color": "#ffffff"
+            },
+            ".brand": {
+              "display": "flex",
+              "transition": "color 300ms ease",
+              "transition-property": "transform, -webkit-transform",
+              "border": "1px solid #ffffff",
+              "padding": "10px 35px",
+              "border-radius": "80px",
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".brand:hover": {
+              "transform": "translate(0px, -4px)",
+              "border": "1px solid @primaryColor"
+            },
+            ".brand-row": {
+              "justify-content": "space-between",
+              "align-items": "center"
+            },
+            ".row-main": {
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".c": {
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 768px)": {
+              ".t": {
+                "margin-top": "10px"
+              }
+            },
+            "@media (max-width: 576px)": {
+              ".t1": {
+                "margin-top": "10px"
+              }
+            },
+            "@media (max-width: 460px)": {
+              ".row-main": {
+                "flex-direction": "column"
+              },
+              ".col-auto": {
+                "margin-bottom": "20px"
+              },
+              ".mbr-section-subtitle": {
+                "margin-right": "0"
+              }
+            }
+          },
+          "_name": "features8",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features8\" group=\"Features\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#14142b\" selected>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{\n        'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row row-main\">\n                <div class=\"col brand-col\">\n                    <div class=\"row brand-row\">\n                        <div class=\"col-12 col-sm-6 col-md-3\">\n                            <div class=\"brand\">\n                                <img src=\"@PROJECT_PATH@/assets/images/roladin-logo-200x96.png\" alt=\"ROLADIN\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                            </div>\n                        </div>\n                        <div class=\"col-12 col-sm-6 col-md-3 t1\">\n                            <div class=\"brand\">\n                                <img src=\"@PROJECT_PATH@/assets/images/emblem-of-israel-200x96.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                            </div>\n                        </div>\n                        <div class=\"col-12 col-sm-6 col-md-3 t\">\n                            <div class=\"brand\">\n                                <img src=\"@PROJECT_PATH@/assets/images/rashut-sdot-teufa-200x96.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                            </div>\n                        </div>\n                        <div class=\"col-12 col-sm-6 col-md-3 t\">\n                            <div class=\"brand\">\n                                <img src=\"@PROJECT_PATH@/assets/images/elal-200x96.png\" alt=\"El Al\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-auto\" mbr-if=\"showSubtitle\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>הלקוחות שלנו</b></h3>\n                </div>\n            </div>\n        </div>\n</div></section>",
+          "_cid": "sLnsLDd8Pi",
+          "_anchor": "features8-7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            },
+            ".row": {
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".mbr-section-title": {
+              "width": "100%",
+              "text-align": "right",
+              "margin-bottom": "24px",
+              "line-height": "1.171em",
+              "color": "#14142b",
+              "font-size": "60px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#14142b",
+              "width": "100%",
+              "text-align": "left",
+              "margin-bottom": "24px"
+            },
+            ".mbr-text": {
+              "color": "#5f5d68",
+              "margin-bottom": "56px"
+            },
+            ".right-side": {
+              "max-width": "554px"
+            },
+            ".mbr-section-btn": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".margin": {
+              "margin-right": "14px"
+            },
+            ".shadow": {
+              "padding": "62px 56px 64px",
+              "box-shadow": "0 5px 16px 0 rgba(8, 15, 52, 0.07)",
+              "max-width": "690px",
+              "overflow": "hidden",
+              "border-style": "solid",
+              "border-width": "1px",
+              "border-color": "#eff0f6",
+              "border-radius": "24px",
+              "background-color": "#fff"
+            },
+            "img": {
+              "max-width": "186px",
+              "height": "auto",
+              "border-radius": "50%",
+              "margin-bottom": "17px"
+            },
+            ".card-title": {
+              "margin-bottom": "4px",
+              "color": "#14142b"
+            },
+            ".card-subtitle": {
+              "margin-bottom": "21px",
+              "color": "#8c8c95"
+            },
+            ".card-text": {
+              "margin-bottom": "40px",
+              "color": "#8c8c95"
+            },
+            ".mbr-social-likes.big .btn-social": {
+              "font-size": "20px",
+              "border-radius": "25%",
+              "width": "37px",
+              "height": "37px",
+              "line-height": "44px",
+              "margin": "0 10px 0 0 !important",
+              "padding": "0",
+              "text-align": "center",
+              "position": "relative",
+              "border": "none !important",
+              "border-color": "@primaryColor",
+              "cursor": "pointer",
+              ".mbr-iconfont": {
+                "top": "0",
+                "line-height": "22px",
+                "width": "22px",
+                "color": "#fff"
+              },
+              "&:hover": {
+                "color": "#fff"
+              },
+              "& + .btn": {
+                "margin-left": "0.1rem"
+              }
+            },
+            ".r": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "margin-bottom": "30px"
+            },
+            ".mbr-social-likes.small": {
+              "display": "flex"
+            },
+            ".mbr-social-likes.big": {
+              "display": "block"
+            },
+            ".mbr-social-likes.small .btn-social": {
+              "font-size": "14px",
+              "border-radius": "50%",
+              "width": "30px",
+              "height": "30px !important",
+              "line-height": "30px",
+              "margin": "0 0px 0 10px !important",
+              "padding": "0",
+              "text-align": "center",
+              "position": "relative",
+              "border": "none !important",
+              "border-color": "@primaryColor",
+              "cursor": "pointer",
+              ".mbr-iconfont": {
+                "top": "0",
+                "line-height": "22px",
+                "width": "22px",
+                "color": "#fff"
+              },
+              "&:hover": {
+                "color": "#fff"
+              },
+              "& + .btn": {
+                "margin-left": "0.1rem"
+              }
+            },
+            ".form-control, form .btn": {
+              "min-height": "initial"
+            },
+            "a.btn, button": {
+              "padding": "24px 40px",
+              "border-radius": "80px"
+            },
+            "input": {
+              "border-style": "solid !important",
+              "border-width": "1px !important",
+              "border-color": "#e2e3e9 !important",
+              "border-radius": "100px",
+              "background-color": "#fff",
+              "-webkit-transition": "border-color 300ms ease",
+              "transition": "border-color 300ms ease",
+              "box-shadow": "none !important",
+              "height": "64px",
+              "margin-bottom": "40px",
+              "padding": "8px 26px"
+            },
+            "textarea": {
+              "border-style": "solid !important",
+              "border-width": "1px !important",
+              "border-color": "#e2e3e9 !important",
+              "border-radius": "14px",
+              "background-color": "#fff",
+              "-webkit-transition": "border-color 300ms ease",
+              "transition": "border-color 300ms ease",
+              "box-shadow": "none !important",
+              "height": "132px",
+              "margin-bottom": "40px",
+              "padding": "20px 26px",
+              "text-align": "right"
+            },
+            "input:hover": {
+              "border-color": "#14142b !important"
+            },
+            "textarea:hover": {
+              "border-color": "#14142b !important"
+            },
+            "input:focus": {
+              "border-color": "#14142b !important"
+            },
+            "textarea:focus": {
+              "border-color": "#14142b !important"
+            },
+            ".form-group": {
+              "direction": "rtl",
+              "margin-bottom": "0"
+            },
+            ".listen": {
+              "margin-bottom": "24px"
+            },
+            ".phone": {
+              "margin-bottom": "44px",
+              "text-align": "right"
+            },
+            ".email": {
+              "margin-bottom": "21px",
+              "text-align": "right"
+            },
+            ".listen, .big": {
+              "text-align": "left",
+              "color": "#8c8c95"
+            },
+            ".mbr-text, .button-align": {
+              "color": "#8c8c95",
+              "text-align": "right"
+            },
+            ".email span": {
+              "padding": "7px",
+              "background-color": "#14142b",
+              "color": "#ffffff",
+              "font-size": "1rem",
+              "border-radius": "50%"
+            },
+            ".phone span": {
+              "padding": "7px",
+              "background-color": "#14142b",
+              "color": "#ffffff",
+              "font-size": "1rem",
+              "border-radius": "50%"
+            },
+            "select.form-control:hover": {
+              "border-color": "#14142b"
+            },
+            "select.form-control": {
+              "border": "none !important",
+              "box-shadow": "none !important",
+              "padding": "0",
+              "color": "#8c8c95",
+              "transition": "border-color 300ms ease",
+              "min-height": "64px",
+              "padding-right": "26px",
+              "padding-left": "26px",
+              "border-style": "solid !important",
+              "border-width": "1px !important",
+              "border-color": "#e2e3e9 !important",
+              "border-radius": "100px",
+              "background-color": "#fff",
+              "-webkit-transition": "border-color 300ms ease",
+              "display": "flex"
+            },
+            ".form-check > input": {
+              "height": "1em",
+              "width": "1em",
+              "padding": "0",
+              "float": "initial",
+              "margin-bottom": "0"
+            },
+            "@media (max-width: 770px)": {
+              ".shadow": {
+                "width": "100%",
+                "margin-top": "60px",
+                "max-width": "initial"
+              },
+              ".left-side, .right-side": {
+                "width": "100%",
+                "max-width": "initial"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".right-side": {
+                "max-width": "initial",
+                "margin-bottom": "50px"
+              },
+              ".shadow": {
+                "margin": "auto"
+              }
+            },
+            "@media (max-width: 600px)": {
+              ".shadow": {
+                "padding": "25px"
+              },
+              "input": {
+                "margin-bottom": "20px"
+              }
+            },
+            "@media (max-width: 550px)": {
+              ".r": {
+                "display": "flex",
+                "flex-direction": "column",
+                "margin-bottom": "0"
+              },
+              ".mbr-social-likes.small": {
+                "margin-top": "20px"
+              }
+            },
+            ".big > .socicon-bg-youtube": {
+              "background-color": "@icon11"
+            },
+            ".big > .socicon-bg-facebook": {
+              "background-color": "@icon22"
+            },
+            ".big > .socicon-bg-twitter": {
+              "background-color": "@icon33"
+            },
+            ".big > .socicon-bg-pinterest": {
+              "background-color": "@icon44"
+            },
+            ".big > .socicon-bg-mail": {
+              "background-color": "@icon55"
+            },
+            ".small > .socicon-bg-youtube": {
+              "background-color": "@icon1"
+            },
+            ".small > .socicon-bg-facebook": {
+              "background-color": "@icon2"
+            },
+            ".small > .socicon-bg-twitter": {
+              "background-color": "@icon3"
+            },
+            ".small > .socicon-bg-instagram": {
+              "background-color": "@icon4"
+            },
+            ".small > .socicon-bg-mail": {
+              "background-color": "@icon5"
+            },
+            ".mbr-iconfont": {
+              "margin-right": "8px"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-section-subtitle, .email, .phone": {
+              "text-align": "right"
+            },
+            ".listen, .mbr-social-likes": {
+              "text-align": "right"
+            }
+          },
+          "_name": "form1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Forms\" mbr-class=\"{'mbr-fullscreen': fullScreen}\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n               <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked=\"\">\n        <header>Items</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Contact\" name=\"showContact\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <header>Big Socials</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons1\">\n        <select title=\"Social Count\" name=\"iconsCount1\" condition=\"showIcons == true\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected=\"\">5</option>\n        </select>\n        <input type=\"color\" title=\"Color 1\" name=\"icon11\" value=\"#c4302b\" condition=\"showIcons1 == true\">\n        <input type=\"color\" title=\"Color 2\" name=\"icon22\" value=\"#3e5b98\" condition=\"showIcons1 == true &amp;&amp; iconsCount1 > 1\">\n        <input type=\"color\" title=\"Color 3\" name=\"icon33\" value=\"#4da7de\" condition=\"showIcons1 == true &amp;&amp; iconsCount1 > 2\">\n        <input type=\"color\" title=\"Color 4\" name=\"icon44\" value=\"#c92619\" condition=\"showIcons1 == true &amp;&amp; iconsCount1 > 3\">\n        <input type=\"color\" title=\"Color 5\" name=\"icon55\" value=\"#134785\" condition=\"showIcons1 == true &amp;&amp; iconsCount1 > 4\">\n        <header>Small Socials</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked=\"\">\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons == true\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected=\"\">5</option>\n        </select>\n        <input type=\"color\" title=\"Color 1\" name=\"icon1\" value=\"#c4302b\" condition=\"showIcons == true\">\n        <input type=\"color\" title=\"Color 2\" name=\"icon2\" value=\"#3e5b98\" condition=\"showIcons == true &amp;&amp; iconsCount > 1\">\n        <input type=\"color\" title=\"Color 3\" name=\"icon3\" value=\"#4da7de\" condition=\"showIcons == true &amp;&amp; iconsCount > 2\">\n        <input type=\"color\" title=\"Color 4\" name=\"icon4\" value=\"#925bb0\" condition=\"showIcons == true &amp;&amp; iconsCount > 3\">\n        <input type=\"color\" title=\"Color 5\" name=\"icon5\" value=\"#134785\" condition=\"showIcons == true &amp;&amp; iconsCount > 4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-between\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"right-side\">\n                    <h5 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>צרו קשר</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .button-align\" mbr-if=\"showText\">מלאו את הטופס הזה בשביל ליצור קשר איתנו</p>\n                    <p class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle, .email, .phone\" mbr-if=\"showContact\"><b>\n                            צרו קשר איתנו</b></p>\n                    <p class=\"email mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".email\" mbr-if=\"showContact\">\n                        <span class=\"mobi-mbri mobi-mbri-letter mbr-iconfont mbr-iconfont-btn\"></span><a href=\"mailto:d@donatelo.co.il\" class=\"text-secondary text-primary\">d@donatelo.co.il</a></p>\n\n                    <p class=\"phone mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".phone\" mbr-if=\"showContact\">\n                        <span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span><a href=\"tel:+927-052-3000100\" class=\"text-secondary text-primary\">(+972) 052-300-0100</a></p>\n                    <div class=\"mbr-social-likes big\" mbr-if=\"showIcons1\">\n                        <span class=\"btn btn-social socicon-bg-youtube youtube mx-2\" mbr-if=\"showIcons1 == true\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social socicon-bg-facebook facebook mx-2\" mbr-if=\"iconsCount1 > 1\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social twitter socicon-bg-twitter mx-2\" mbr-if=\"iconsCount1 > 2\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" mbr-if=\"iconsCount1 > 3\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-pinterest socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social mailru socicon-bg-mail mx-2\" mbr-if=\"iconsCount1 > 4\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                        </span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"left-side\">\n                    <div class=\"shadow\">\n                        <div class=\"col-auto form-part\">\n                            <div mbr-form=\"\" class=\"mbr-form top\">\n<!--Formbuilder Form-->\n<form action=\"d@donatelo.co.il\" name=\"פנייה כללית\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">תודה רבה, הפנייה תקבלה בהצלחה</div>\n<div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\"> אופסיי... יש לנו בעייה</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-6 col-md-12 col-sm-12 form-group\" data-for=\"שם\">\n<input type=\"text\" name=\"שם\" placeholder=\"שם מלא\" data-form-field=\"שם\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value=\"\">\n</div>\n<div class=\"col-lg-6 col-md-12 col-sm-12 form-group\" data-for=\"חפ\">\n<input type=\"text\" name=\"חפ\" placeholder=\"מספר חברה\" data-form-field=\"חפ\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"\">\n</div>\n<div data-for=\"נושא\" class=\"col-lg-6 col-md-12 col-sm-12 form-group \">\n<input type=\"email\" name=\"נושא\" placeholder=\"נושא\" data-form-field=\"נושא\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"אימייל\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"אימייל\" placeholder=\"אימייל\" data-form-field=\"אימייל\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"טקטסחופשי\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"טקטסחופשי\" placeholder=\"כל מה שאתם רוצים\" data-form-field=\"טקטסחופשי\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 btn btn-primary\">שליחת פנייה</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tq5ig1T8Pv",
+          "_anchor": "form1-3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".google-map": {
+              "height": "30rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            }
+          },
+          "_name": "map1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"map1\" group=\"Maps\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"דונטלו אמצעי קד״מ\" value=\"דונטלו אמצעי קד״מ\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>על המפה</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Find us here\n            </h4>\n        </div>\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_cid": "tq5ioLANSI",
+          "_anchor": "map1-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95"
+            },
+            ".line": {
+              "height": "1px",
+              "width": "100%",
+              "background-color": "#c2c2c2",
+              "margin-bottom": "32px"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-center mbr-white\">\n            <div class=\"col-12\">\n                <div class=\"line\" mbr-if=\"showLine\"></div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">1999 - 2022 כל הזכויות שמורות לדונטלו עמצאי קד\"מ ©<br>מדיניות הפרטיות | חנות | אודות</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sLnt0I1etm",
+          "_anchor": "footer1-e",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "דונטלו אמצעי קד\"מ | אודות",
+        "order": "2",
+        "socialSharingUrl": "",
+        "header_custom": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "0",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+              "margin-top": "0px"
+            },
+            ".dropdown-item": {
+              "&:hover, &:focus": {
+                "color": "@primaryColor !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0em !important",
+              "font-weight": "400"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "padding": "0"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap",
+              "padding-left": "20px"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "19px 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "flex-end",
+              "padding-left": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "min-width": "340px !important"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a": {
+              "display": "inline"
+            },
+            "img": {
+              "display": "inline",
+              "padding-right": "10px"
+            },
+            ".dropdown-toggle:after": {
+              "display": "none"
+            },
+            ".navbar .dropdown-item": {
+              "display": "block",
+              "border-radius": "0",
+              "padding-top": "2px",
+              "padding-bottom": "2px"
+            },
+            ".dropdown-item:hover": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 990px)": {
+              ".dropdown-menu": {
+                "margin-top": "0px"
+              },
+              ".nav-dropdown .link": {
+                "margin": "0 !important"
+              }
+            },
+            ".mbr-buttons": {
+              "margin": "20px -6px 20px"
+            },
+            ".nav-item": {
+              "margin-right": "32px"
+            },
+            ".nav-item:last-child": {
+              "margin-right": "0"
+            },
+            "@media (max-width: 970px)": {
+              "ul li": {
+                "height": "45px",
+                "display": "list-item"
+              }
+            },
+            ".navbar-collapse.collapsing .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-collapse.collapse.show .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-nav": {
+              "margin": "auto"
+            },
+            ".navbar-collapse.collapse.show ul li": {
+              "display": "list-item"
+            },
+            ".mbr-iconfont": {
+              "margin-left": "-5px",
+              "margin-right": "7px"
+            },
+            ".btn": {
+              "padding": "1rem 1.5625rem !important",
+              "display": "inline-block",
+              "line-height": "20px",
+              "transform-style": "preserve-3d !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            ".btn when (@isRoundedButtons)": {
+              "border-radius": "1000px !important"
+            },
+            ".navbar.collapsed .icons-menu": {
+              "display": "flex",
+              "flex-direction": "column",
+              ".top": {
+                "margin-top": "15px"
+              }
+            },
+            ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "border-top": "0.35em solid",
+              "border-right": "0.35em solid transparent",
+              "border-left": "0.35em solid transparent",
+              "border-bottom": "0",
+              "top": "41%"
+            },
+            ".dropdown-toggle::after": {
+              "display": "inline-block",
+              "margin-left": ".255em",
+              "vertical-align": ".255em",
+              "content": "\"\"",
+              "border-top": ".3em solid",
+              "border-right": ".3em solid transparent",
+              "border-bottom": "0",
+              "border-left": ".3em solid transparent"
+            },
+            ".dropdown-item:focus": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 945px)": {
+              ".icons-menu": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".top": {
+                "margin-top": "25px"
+              }
+            },
+            ".btn:hover": {
+              "transform": "translate3d(0px, -4px, 0.01px) !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            "@media (min-width: 992px)": {
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap"
+              }
+            },
+            "li:last-child": {
+              "margin-right": "0"
+            },
+            "& when (@collapsed)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "inherit !important"
+              }
+            },
+            "@media (max-width: 989px)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 430px)": {
+              ".icons-menu": {
+                "min-width": "initial !important"
+              },
+              "a.btn": {
+                "margin-top": "10px"
+              }
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButton\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n                <div class=\"icons-menu\">\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\">Follow</a></div>\n                </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-info mbr-iconfont mbr-iconfont-btn\"></span>אודות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#numbers1-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"gi gi-fw gi-gavel mbr-iconfont mbr-iconfont-btn\"></span>תקנון ומידע חוקי</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"order.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-border-color mbr-iconfont mbr-iconfont-btn\"></span>הזמנה אישית</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://dntl.co.il\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"material material-shopping-cart mbr-iconfont mbr-iconfont-btn\"></span>חנות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#article9-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>בית</a></li></ul>\n                <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://donatelo.co.il\">\n                        <img src=\"@PROJECT_PATH@/assets/images/donatelo-transparent-zoom-96x62.png\" alt=\"Donatelo Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n            </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sLnsAC8JQx",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-9"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8c8c95",
+              "text-align": "center",
+              "max-width": "552px",
+              "margin": "auto"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#14142b",
+              "margin": "auto"
+            },
+            ".row": {
+              "align-items": "center",
+              "height": "100%"
+            },
+            ".wrapper": {
+              "margin": "auto"
+            }
+          },
+          "_name": "article1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1\" group=\"Article\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"wrapper col-12 col-md-{{contentWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>אודות</b></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqY313FdnG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article1-b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95"
+            },
+            ".line": {
+              "height": "1px",
+              "width": "100%",
+              "background-color": "#c2c2c2",
+              "margin-bottom": "32px"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-center mbr-white\">\n            <div class=\"col-12\">\n                <div class=\"line\" mbr-if=\"showLine\"></div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">1999 - 2022 כל הזכויות שמורות לדונטלו עמצאי קד\"מ ©<br>מדיניות הפרטיות | חנות | אודות</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sLnt0I1etm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer1-a"
+        }
+      ]
+    },
+    "order.html": {
+      "settings": {
+        "title": "דונטלו אמצעי קד\"מ | הזמנה אישית",
+        "order": "3",
+        "meta_descr": "הזמנה אישית או הצעת מחיר אישית מדונטלו אמצעי קד\"מ בע\"מ\nבקשו הזמנה אישית בשביל הזמנות גדולות או הצעת מחיר פרטית"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "0",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+              "margin-top": "0px"
+            },
+            ".dropdown-item": {
+              "&:hover, &:focus": {
+                "color": "@primaryColor !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0em !important",
+              "font-weight": "400"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "padding": "0"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap",
+              "padding-left": "20px"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "19px 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "flex-end",
+              "padding-left": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "min-width": "340px !important"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a": {
+              "display": "inline"
+            },
+            "img": {
+              "display": "inline",
+              "padding-right": "10px"
+            },
+            ".dropdown-toggle:after": {
+              "display": "none"
+            },
+            ".navbar .dropdown-item": {
+              "display": "block",
+              "border-radius": "0",
+              "padding-top": "2px",
+              "padding-bottom": "2px"
+            },
+            ".dropdown-item:hover": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 990px)": {
+              ".dropdown-menu": {
+                "margin-top": "0px"
+              },
+              ".nav-dropdown .link": {
+                "margin": "0 !important"
+              }
+            },
+            ".mbr-buttons": {
+              "margin": "20px -6px 20px"
+            },
+            ".nav-item": {
+              "margin-right": "32px"
+            },
+            ".nav-item:last-child": {
+              "margin-right": "0"
+            },
+            "@media (max-width: 970px)": {
+              "ul li": {
+                "height": "45px",
+                "display": "list-item"
+              }
+            },
+            ".navbar-collapse.collapsing .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-collapse.collapse.show .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-nav": {
+              "margin": "auto"
+            },
+            ".navbar-collapse.collapse.show ul li": {
+              "display": "list-item"
+            },
+            ".mbr-iconfont": {
+              "margin-left": "-5px",
+              "margin-right": "7px"
+            },
+            ".btn": {
+              "padding": "1rem 1.5625rem !important",
+              "display": "inline-block",
+              "line-height": "20px",
+              "transform-style": "preserve-3d !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            ".btn when (@isRoundedButtons)": {
+              "border-radius": "1000px !important"
+            },
+            ".navbar.collapsed .icons-menu": {
+              "display": "flex",
+              "flex-direction": "column",
+              ".top": {
+                "margin-top": "15px"
+              }
+            },
+            ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "border-top": "0.35em solid",
+              "border-right": "0.35em solid transparent",
+              "border-left": "0.35em solid transparent",
+              "border-bottom": "0",
+              "top": "41%"
+            },
+            ".dropdown-toggle::after": {
+              "display": "inline-block",
+              "margin-left": ".255em",
+              "vertical-align": ".255em",
+              "content": "\"\"",
+              "border-top": ".3em solid",
+              "border-right": ".3em solid transparent",
+              "border-bottom": "0",
+              "border-left": ".3em solid transparent"
+            },
+            ".dropdown-item:focus": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 945px)": {
+              ".icons-menu": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".top": {
+                "margin-top": "25px"
+              }
+            },
+            ".btn:hover": {
+              "transform": "translate3d(0px, -4px, 0.01px) !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            "@media (min-width: 992px)": {
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap"
+              }
+            },
+            "li:last-child": {
+              "margin-right": "0"
+            },
+            "& when (@collapsed)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "inherit !important"
+              }
+            },
+            "@media (max-width: 989px)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 430px)": {
+              ".icons-menu": {
+                "min-width": "initial !important"
+              },
+              "a.btn": {
+                "margin-top": "10px"
+              }
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButton\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n                <div class=\"icons-menu\">\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\">Follow</a></div>\n                </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-info mbr-iconfont mbr-iconfont-btn\"></span>אודות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#numbers1-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"gi gi-fw gi-gavel mbr-iconfont mbr-iconfont-btn\"></span>תקנון ומידע חוקי</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"order.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-border-color mbr-iconfont mbr-iconfont-btn\"></span>הזמנה אישית</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://dntl.co.il\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"material material-shopping-cart mbr-iconfont mbr-iconfont-btn\"></span>חנות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#article9-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>בית</a></li></ul>\n                <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://donatelo.co.il\">\n                        <img src=\"@PROJECT_PATH@/assets/images/donatelo-transparent-zoom-96x62.png\" alt=\"Donatelo Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n            </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sLnsAC8JQx",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "text-align": "center",
+              "max-width": "552px",
+              "margin": "auto"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#14142b",
+              "padding-bottom": "24px"
+            },
+            ".row": {
+              "align-items": "center",
+              "height": "100%"
+            },
+            ".wrapper": {
+              "margin": "auto"
+            },
+            ".subtitle": {
+              "display": "inline",
+              "width": "auto",
+              "color": "#8c8c95"
+            },
+            ".mbr-section-btn": {
+              "display": "inline",
+              "width": "auto",
+              "margin-right": "25px"
+            },
+            ".title-block": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "padding-bottom": "24px"
+            },
+            "a.btn": {
+              "padding": "16px 25px !important"
+            },
+            "a.btn:hover": {
+              "background-color": "@primaryColor !important",
+              "border-color": "@primaryColor !important",
+              "color": "#000000"
+            },
+            "@media (max-width: 340px)": {
+              ".title-block": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".mbr-section-btn": {
+                "margin-right": "0",
+                "margin-bottom": "20px"
+              }
+            }
+          },
+          "_name": "features11",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features11\" group=\"Features\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"5\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <input type=\"checkbox\" title=\"Date\" name=\"showDate\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col title-block\" mbr-if=\"showButton || showDate\">\n                <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-success\" href data-app-placeholder=\"Type Text\">Productivity</a></div>\n                <h4 class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".subtitle\" mbr-if=\"showDate\">April 28,\n                    2021</h4>\n            </div>\n            <div class=\"row\">\n                <div class=\"wrapper col-12 col-md-{{contentWidth}}\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\"><b>הזמנה אישית</b></h3>\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ברוכים הבאים למערכת ההזמנות האישיות של דונטלו<br>אנחנו מאפשרים לכם להזמין הזמנות גדולות במיוחד לאירוע שלכם<br>מלאו את הטופס הזה בשביל לקבל הצעת מחיר בשבילכם<br><br><b>במידה ואתם רוצים להיות הלקוחות שלנו תצתרכו למלא את הטופס</b></h3>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqXdVKAGNX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features11-7"
+        },
+        {
+          "alias": "formbuilder",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@customStyle)": {
+              ".form-control, .field-input": {
+                "padding": "0.5rem",
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none",
+                "&::-webkit-input-placeholder, &::-webkit-input-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "&:-moz-placeholder, &:-moz-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "&:hover, &:focus": {
+                  "background-color": "@fieldHover",
+                  "border-color": "@borderHover",
+                  "color": "@formFocusText",
+                  "box-shadow": "none",
+                  "outline": "none",
+                  "&::-webkit-input-placeholder, &::-webkit-input-placeholder": {
+                    "color": "@formFocusPlaceholder"
+                  },
+                  "&:-moz-placeholder, &:-moz-placeholder": {
+                    "color": "@formFocusPlaceholder"
+                  }
+                }
+              },
+              ".jq-number__spin:hover, .jq-number__spin:focus": {
+                "background-color": "@fieldHover",
+                "border-color": "@borderHover",
+                "color": "contrast(@formText, #000000, #ffffff, 30%)",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-number__spin": {
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-selectbox li, .jq-selectbox li": {
+                "background-color": "@fieldColor",
+                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
+                "background-color": "@fieldHover",
+                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox:hover .jq-selectbox__trigger-arrow, .jq-number__spin.minus:hover:after, .jq-number__spin.plus:hover:after": {
+                "border-top-color": "@fieldColor",
+                "border-bottom-color": "@fieldColor"
+              },
+              ".jq-selectbox .jq-selectbox__trigger-arrow, .jq-number__spin.minus:after, .jq-number__spin.plus:after": {
+                "border-top-color": "@fieldHover",
+                "border-bottom-color": "@fieldHover"
+              }
+            },
+            "& when (@customStyle), (@disableElements)": {
+              "input::-webkit-clear-button": {
+                "display": "none"
+              },
+              "input::-webkit-inner-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-outer-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-calendar-picker-indicator": {
+                "display": "none"
+              }
+            },
+            ".mbr-form": {
+              "direction": "rtl"
+            },
+            ".form-select": {
+              "direction": "ltr"
+            },
+            "LABEL": {
+              "color": "#000000"
+            }
+          },
+          "_name": "formbuilder",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\">\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#efefef\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Text\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusText\" title=\"Text Focus\" value=\"#232323\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusPlaceholder\" title=\"Placeholders Focus\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../assets/background.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action name=\"הזמנה אישית\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">תודה רבה! הטופס התקבל בהצלחה</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">טופס הזמנה אישית</h2>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div data-for=\"טלפון\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"טלפון\" placeholder=\"מספר טלפון\" data-form-field=\"טלפון\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"מייל\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"מייל\" placeholder=\"כתובת אימייל\" data-form-field=\"מייל\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"שם-חברה\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"שם-חברה\" placeholder=\"שם חברה\" data-form-field=\"שם-חברה\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"חפ\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"חפ\" placeholder=\"(מספר חברה (ח.פ. או ע.ר. או ע.מ\" data-form-field=\"חפ\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-6 col-md-12 col-sm-12 form-group\" data-for=\"אתר-חברה\">\n<input type=\"url\" name=\"אתר-חברה\" placeholder=\"אתר חברה\" pattern=\"https://.*\" data-form-field=\"אתר-חברה\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"יעוד\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<select name=\"יעוד\" data-form-field=\"יעוד\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option value=\"בחירת יעוד\">בחירת יעוד</option>\n<option value=\"תערוכה\">תערוכה</option>\n<option value=\"אירוע\">אירוע</option>\n<option value=\"תצוגה\">תצוגה</option>\n<option value=\"כנס\">כנס</option>\n<option value=\"השכרת ציוד\">השכרת ציוד</option>\n</select>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">תאריך הגעה רצוי</p>\n</div>\n<div data-for=\"תאריך\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"date\" name=\"תאריך\" data-form-field=\"תאריך\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"2023-12-5\">\n</div>\n<div data-for=\"שעה\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"time\" name=\"שעה\" max=\"86400\" min=\"0\" step=\"1800\" data-form-field=\"שעה\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"10:00\">\n</div>\n<div data-for=\"פירוט\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"פירוט\" placeholder=\"פרטו על הפרוייקט שלכם\" data-form-field=\"פירוט\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h3 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">פרטי משלוח</h3>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-4\" class=\"mbr-fonts-style\">אם תרצו אספקה בעמצאות השליחים שלנו *בכפוף לתקנון</p>\n</div>\n<div data-for=\"עיר\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"עיר\" placeholder=\"עיר\" data-form-field=\"עיר\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"רחוב\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"רחוב\" placeholder=\"רחוב\" data-form-field=\"רחוב\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"מספר-קומה-כניסה\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"מספר-קומה-כניסה\" placeholder=\"מספר, קומה, כניסה\" data-form-field=\"מספר-קומה-כניסה\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"איש-קשר-משלוח\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"איש-קשר-משלוח\" placeholder=\"איש קשר למשלוח\" data-form-field=\"איש-קשר-משלוח\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"איש-קשר-משלוח-טלפון\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"number\" name=\"איש-קשר-משלוח-טלפון\" placeholder=\"טלפון איש קשר\" max=\"100\" min=\"0\" step=\"1\" data-form-field=\"איש-קשר-משלוח-טלפון\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"אופן-שילוח\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<select name=\"אופן-שילוח\" data-form-field=\"אופן-שילוח\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option value=\"בחירת אופן שילוח\">בחירת אופן שילוח</option>\n<option value=\"שליח מטעם דונטלו אמצעי קד&quot;מ\">שליח מטעם דונטלו אמצעי קד\"מ</option>\n<option value=\"(שליח שלנו (אני מביא שליח שלי\">(שליח שלנו (אני מביא שליח שלי</option>\n</select>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"אני רוצה לקבל הדרכה לפירוק והרכבה\" class=\"mbr-fonts-style\">איכות שירות למשלוח</label>\n</div>\n<div data-for=\"משלוח באותו היום (מיידי)\" class=\"form-check ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"משלוח באותו היום (מיידי)\" data-form-field=\"משלוח באותו היום (מיידי)\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"משלוח באותו היום (מיידי)\" mbr-theme-style=\"display-7\" class=\"form-check-label\">משלוח באותו היום (מיידי)</label>\n</div>\n<div data-for=\"מוצר ארוז בהרכבה אישית שלכם\" class=\"form-check ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"מוצר ארוז בהרכבה אישית שלכם\" data-form-field=\"מוצר ארוז בהרכבה אישית שלכם\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"מוצר ארוז בהרכבה אישית שלכם\" mbr-theme-style=\"display-7\" class=\"form-check-label\">מוצר ארוז בהרכבה אישית שלכם</label>\n</div>\n<div data-for=\"מורכב מראש\" class=\"form-check ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"מורכב מראש\" data-form-field=\"מורכב מראש\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"מורכב מראש\" mbr-theme-style=\"display-7\" class=\"form-check-label\">מורכב מראש</label>\n</div>\n<div data-for=\"אני רוצה לקבל הדרכה לפירוק והרכבה\" class=\"form-check ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"אני רוצה לקבל הדרכה לפירוק והרכבה\" data-form-field=\"אני רוצה לקבל הדרכה לפירוק והרכבה\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"אני רוצה לקבל הדרכה לפירוק והרכבה\" mbr-theme-style=\"display-7\" class=\"form-check-label\">אני רוצה לקבל הדרכה לפירוק והרכבה</label>\n</div>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h3 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">שעות וימי עבודה</h3>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"שישי\" class=\"mbr-fonts-style\">ימי עבודה</label>\n</div>\n<div data-for=\"ראשון\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"ראשון\" data-form-field=\"ראשון\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"ראשון\" mbr-theme-style=\"display-7\" class=\"form-check-label\">ראשון</label>\n</div>\n<div data-for=\"שני\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"שני\" data-form-field=\"שני\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"שני\" mbr-theme-style=\"display-7\" class=\"form-check-label\">שני</label>\n</div>\n<div data-for=\"שלישי\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"שלישי\" data-form-field=\"שלישי\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"שלישי\" mbr-theme-style=\"display-7\" class=\"form-check-label\">שלישי</label>\n</div>\n<div data-for=\"רביעי\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"רביעי\" data-form-field=\"רביעי\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"רביעי\" mbr-theme-style=\"display-7\" class=\"form-check-label\">רביעי</label>\n</div>\n<div data-for=\"חמישי\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"חמישי\" data-form-field=\"חמישי\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"חמישי\" mbr-theme-style=\"display-7\" class=\"form-check-label\">חמישי</label>\n</div>\n<div data-for=\"שישי\" class=\"form-check form-check-inline ms-2\">\n<input type=\"checkbox\" value=\"Yes\" name=\"שישי\" data-form-field=\"שישי\" mbr-theme-style=\"display-7\" class=\"form-check-input\">\n<label mbr-text for=\"שישי\" mbr-theme-style=\"display-7\" class=\"form-check-label\">שישי</label>\n</div>\n</div>\n<div data-for=\"time\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"time\" class=\"form-control-label mbr-fonts-style\">שעת פתיחה</label>\n<input type=\"time\" name=\"time\" max=\"86400\" min=\"0\" step=\"1800\" data-form-field=\"time\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"10:00\">\n</div>\n<div data-for=\"time1\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"time1\" class=\"form-control-label mbr-fonts-style\">שעת סגירה</label>\n<input type=\"time\" name=\"time1\" max=\"86400\" min=\"0\" step=\"1800\" data-form-field=\"time1\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"10:00\">\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h3 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">אופן תשלום</h3>\n</div>\n<div data-for=\"radio1\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"radio1\" data-form-field=\"radio\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"מזומן\" checked>\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">מזומן</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"radio1\" data-form-field=\"radio\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"כרטיס אשראי\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">כרטיס אשראי</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"radio1\" data-form-field=\"radio\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"המחאה\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">המחאה</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"radio1\" data-form-field=\"radio\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"העברה בנקאית\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">העברה בנקאית</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"radio1\" data-form-field=\"radio\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"מקדמה 10% בכרטיס אשראי השאר על פי סיכום\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">מקדמה 10% בכרטיס אשראי השאר על פי סיכום</label>\n</div>\n</div>\n<div data-for=\"תנאי-תשלום\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"תנאי-תשלום\" class=\"mbr-fonts-style\">תנאי תשלום</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"תנאי-תשלום\" data-form-field=\"תנאי-תשלום\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"פרעון מיידי\" checked>\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">פרעון מיידי</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"תנאי-תשלום\" data-form-field=\"תנאי-תשלום\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"שוטף (30 60 90)\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">שוטף (30 60 90)</label>\n</div>\n<div class=\"form-check form-check-inline ms-2\">\n<input type=\"radio\" name=\"תנאי-תשלום\" data-form-field=\"תנאי-תשלום\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"אחר\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">אחר</label>\n</div>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style\">תנאי גבייה</h5>\n</div>\n<div data-for=\"תנאי-גבייה\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<select name=\"תנאי-גבייה\" data-form-field=\"תנאי-גבייה\" mbr-theme-style=\"display-7\" class=\"form-control form-select\" required=\"required\">\n<option value=\"בהזמנה\">בהזמנה</option>\n<option value=\"בהספקה - כאשר מגיעים אלינו למוצרי מדף\">בהספקה - כאשר מגיעים אלינו למוצרי מדף</option>\n<option value=\"לאחר אספקה - מותנה באישור אשראי\">לאחר אספקה - מותנה באישור אשראי</option>\n<option value=\"לאחר אספקה עם קבלת המוצר\">לאחר אספקה עם קבלת המוצר</option>\n<option value=\"לאחר הספקה לפני פרעון / תוך: ____ ימים מקבלת המוצר/ביום ה: 5/ 10 / 20 /של החודש לאחר השותף\">לאחר הספקה לפני פרעון / תוך: ____ ימים מקבלת המוצר/ביום ה: 5/ 10 / 20 /של החודש לאחר השותף</option>\n<option value=\"לאחר הספקה בזמן הפרעון\">לאחר הספקה בזמן הפרעון</option>\n<option value=\"קדמה ויתרה בהזמנה - עבור מוצרים המיוצרים במיוחד עבורכם\">קדמה ויתרה בהזמנה - עבור מוצרים המיוצרים במיוחד עבורכם</option>\n<option value=\"מקדמה ויתרה אספקה - עבור מוצרים המיוצרים במיוחד עבורכם\">מקדמה ויתרה אספקה - עבור מוצרים המיוצרים במיוחד עבורכם</option>\n<option value=\"מקדמה ויתרה לאחר אספקה\">מקדמה ויתרה לאחר אספקה</option>\n<option value=\"כרטיס אשראי לביטחון\">כרטיס אשראי לביטחון</option>\n</select>\n</div>\n<div data-for=\"אמייל-הנהלת-חשבונות\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"אמייל-הנהלת-חשבונות\" placeholder=\"אימייל הנהלת חשבונות\" data-form-field=\"אמייל-הנהלת-חשבונות\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"טלפון-מאשר-תשלום\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"number\" name=\"טלפון-מאשר-תשלום\" placeholder=\"טלפון נייד של מאשר התשלום/הזמנה/המחאה\" max=\"100\" min=\"0\" step=\"1\" data-form-field=\"טלפון-מאשר-תשלום\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 \">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-primary\">שלחו טופס לקבלת הצעת מחיר&nbsp;</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqXe6FQVqw",
+          "_anchor": "formbuilder-8",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95"
+            },
+            ".line": {
+              "height": "1px",
+              "width": "100%",
+              "background-color": "#c2c2c2",
+              "margin-bottom": "32px"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-center mbr-white\">\n            <div class=\"col-12\">\n                <div class=\"line\" mbr-if=\"showLine\"></div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">1999 - 2022 כל הזכויות שמורות לדונטלו עמצאי קד\"מ ©<br>מדיניות הפרטיות | חנות | אודות</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sLnt0I1etm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer1-6"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Page 3",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "0",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+              "margin-top": "0px"
+            },
+            ".dropdown-item": {
+              "&:hover, &:focus": {
+                "color": "@primaryColor !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0em !important",
+              "font-weight": "400"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "padding": "0"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap",
+              "padding-left": "20px"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "19px 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "flex-end",
+              "padding-left": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "min-width": "340px !important"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a": {
+              "display": "inline"
+            },
+            "img": {
+              "display": "inline",
+              "padding-right": "10px"
+            },
+            ".dropdown-toggle:after": {
+              "display": "none"
+            },
+            ".navbar .dropdown-item": {
+              "display": "block",
+              "border-radius": "0",
+              "padding-top": "2px",
+              "padding-bottom": "2px"
+            },
+            ".dropdown-item:hover": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 990px)": {
+              ".dropdown-menu": {
+                "margin-top": "0px"
+              },
+              ".nav-dropdown .link": {
+                "margin": "0 !important"
+              }
+            },
+            ".mbr-buttons": {
+              "margin": "20px -6px 20px"
+            },
+            ".nav-item": {
+              "margin-right": "32px"
+            },
+            ".nav-item:last-child": {
+              "margin-right": "0"
+            },
+            "@media (max-width: 970px)": {
+              "ul li": {
+                "height": "45px",
+                "display": "list-item"
+              }
+            },
+            ".navbar-collapse.collapsing .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-collapse.collapse.show .nav-item": {
+              "height": "45px"
+            },
+            ".navbar-nav": {
+              "margin": "auto"
+            },
+            ".navbar-collapse.collapse.show ul li": {
+              "display": "list-item"
+            },
+            ".mbr-iconfont": {
+              "margin-left": "-5px",
+              "margin-right": "7px"
+            },
+            ".btn": {
+              "padding": "1rem 1.5625rem !important",
+              "display": "inline-block",
+              "line-height": "20px",
+              "transform-style": "preserve-3d !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            ".btn when (@isRoundedButtons)": {
+              "border-radius": "1000px !important"
+            },
+            ".navbar.collapsed .icons-menu": {
+              "display": "flex",
+              "flex-direction": "column",
+              ".top": {
+                "margin-top": "15px"
+              }
+            },
+            ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "border-top": "0.35em solid",
+              "border-right": "0.35em solid transparent",
+              "border-left": "0.35em solid transparent",
+              "border-bottom": "0",
+              "top": "41%"
+            },
+            ".dropdown-toggle::after": {
+              "display": "inline-block",
+              "margin-left": ".255em",
+              "vertical-align": ".255em",
+              "content": "\"\"",
+              "border-top": ".3em solid",
+              "border-right": ".3em solid transparent",
+              "border-bottom": "0",
+              "border-left": ".3em solid transparent"
+            },
+            ".dropdown-item:focus": {
+              "color": "@infoColor !important"
+            },
+            "@media (max-width: 945px)": {
+              ".icons-menu": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".top": {
+                "margin-top": "25px"
+              }
+            },
+            ".btn:hover": {
+              "transform": "translate3d(0px, -4px, 0.01px) !important",
+              "transition": "color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important"
+            },
+            "@media (min-width: 992px)": {
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap"
+              }
+            },
+            "li:last-child": {
+              "margin-right": "0"
+            },
+            "& when (@collapsed)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "inherit !important"
+              }
+            },
+            "@media (max-width: 989px)": {
+              "ul.navbar-nav": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 430px)": {
+              ".icons-menu": {
+                "min-width": "initial !important"
+              },
+              "a.btn": {
+                "margin-top": "10px"
+              }
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButton\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n                <div class=\"icons-menu\">\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\">Follow</a></div>\n                </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-info mbr-iconfont mbr-iconfont-btn\"></span>אודות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#numbers1-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"gi gi-fw gi-gavel mbr-iconfont mbr-iconfont-btn\"></span>תקנון ומידע חוקי</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"order.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"material material-border-color mbr-iconfont mbr-iconfont-btn\"></span>הזמנה אישית</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://dntl.co.il\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"material material-shopping-cart mbr-iconfont mbr-iconfont-btn\"></span>חנות</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#article9-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>בית</a></li></ul>\n                <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://donatelo.co.il\">\n                        <img src=\"@PROJECT_PATH@/assets/images/donatelo-transparent-zoom-96x62.png\" alt=\"Donatelo Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n            </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sLnsAC8JQx",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8c8c95",
+              "text-align": "center",
+              "max-width": "552px",
+              "margin": "auto"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#14142b",
+              "margin": "auto"
+            },
+            ".row": {
+              "align-items": "center",
+              "height": "100%"
+            },
+            ".wrapper": {
+              "margin": "auto"
+            }
+          },
+          "_name": "article1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1\" group=\"Article\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"wrapper col-12 col-md-{{contentWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>מדיניות הץרטיות</b></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqYgau7rzm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article1-e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95"
+            },
+            ".line": {
+              "height": "1px",
+              "width": "100%",
+              "background-color": "#c2c2c2",
+              "margin-bottom": "32px"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "creatorm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-center mbr-white\">\n            <div class=\"col-12\">\n                <div class=\"line\" mbr-if=\"showLine\"></div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">1999 - 2022 כל הזכויות שמורות לדונטלו עמצאי קד\"מ ©<br>מדיניות הפרטיות | חנות | אודות</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sLnt0I1etm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer1-d"
+        }
+      ]
+    }
+  }
+}
